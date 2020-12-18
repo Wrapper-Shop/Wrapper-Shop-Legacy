@@ -20,17 +20,15 @@ body {
 /**
 header
 **/
-header {
+.header {
 	/* style */
-	background: #1e1e1ee6;
+	background: #1e1e1e;
 	color: #fff;
 	text-align: center;
-	backdrop-filter: blur(30px);
 	/* layout */
 	height: 44px;
 	padding: 0 15px;
 	display: flex;
-	justify-content: space-between;
 	position: fixed;
 	width: 100%;
 	z-index: 10000;
@@ -38,6 +36,7 @@ header {
 #logo {
 	margin-top: 4px;
 	height: 35px;
+	float: left;
 }
 /* buttons */
 .button_big,
