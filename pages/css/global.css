@@ -11,10 +11,6 @@ html,body{
 	font: 16px/1.5 'Sailec', Arial, sans-serif;
 	width:100%;height:100%;
 }
-body {
-	display: flex; 
-  flex-direction: column; 
-}
 
 
 /**
@@ -28,8 +24,6 @@ header
 	/* layout */
 	height: 44px;
 	padding: 0 15px;
-	display: flex;
-	justify-content: space-between;
 	position: fixed;
 	width: 100%;
 	z-index: 10000;
